@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>MyTags</short-name>
+    <tag>
+        <name>LoginTag</name>
+        <tag-class>Tags.LoginTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>value</name>
+        </attribute>
+    </tag>
+    <tag>
+        <name>TagDay</name>
+        <tag-class>Tags.Day</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>myDay</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>myMonth</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>myYear</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
