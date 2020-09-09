@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class Util {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private static final String DB_NAME = "root";
-    private static final String DB_PASSWORD = "6788393vadim";
+    private static final String DB_PASSWORD = "pass";
 
 
     public static Connection getConnection(Log log) throws IOException {
