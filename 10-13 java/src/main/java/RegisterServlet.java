@@ -16,7 +16,7 @@ import java.sql.SQLException;
 public class RegisterServlet extends HttpServlet {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/servlet?autoReconnect=true&useSSL=false";
     private static final String DB_NAME = "root";
-    private static final String DB_PASSWORD = "6788393vadim";
+    private static final String DB_PASSWORD = "pass";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
